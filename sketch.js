@@ -120,6 +120,6 @@ function mousePressed()
   if(gameState!=="end")
   {
       count++;
-     obstacle=new Obstacle(mouseX, 10, 10, 10); 
+     particle=new Obstacle(mouseX, 10, 10, 10); 
   }   
 }
